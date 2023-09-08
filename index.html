@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="script.js" rel="stylesheet" type="text/css">
+    <style>
+      /* Add this inline style to set the background image */
+      body {
+          background-image: url("C:\Users\pradh\OneDrive\Desktop\clgweb2\jjbackground.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+      /* Center the admission form */
+      .admission-box {
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: rgba(255, 255, 255, 0.9); /* Adjust background color and opacity as needed */
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+      }
+
+      /* Center-align the Gallery */
+      .center {
+          text-align: center;
+      }
+
+      /* Apply styles to images in the gallery */
+      .img-responsive {
+          max-width: 400px; /* Adjust the maximum width for larger images */
+          height: auto;
+          border: 2px solid #ccc; /* Add a border */
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+          margin: 20px; /* Add spacing between images */
+          transition: transform 0.3s ease;
+      }
+
+      /* Apply image hover effect */
+      .img-responsive:hover {
+          transform: scale(1.1);
+      }
+  </style>
+</head>
+<link rel="stylesheet" href="style.css"/>
+<link href="script.js" rel="stylesheet"  type="text/css">
+<body class="bk">
+  <h1 class="green-text pstyle">
+    <p align=center>
+  Vellore Institute of Technology<br>
+          </p>
+  </h1>
+  <p align="center">
+    <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\home pahe intro.jpg" alt="KGCAS" >
+  </p> 
+<div class="topnav" id="myTopnav">
+  <a href="#Home">Home</a>
+  <a href="#Gallery">Gallery</a>
+  <a href="#Academics">Academics</a>
+    <a href="#Admission">Admission</a>
+   <a href="#How">How to reach Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="target">
+<div id="Home">
+  <p class="bl-text">
+    VIT Vellore, also known as Vellore Institute of Technology, is a prestigious institution that was established in the year 2005 with the aim of providing high-quality education at the undergraduate and post-graduate levels. It primarily focuses on meeting the talent requirements of the domestic and global IT and IT-enabled service providers.
+
+    The institution boasts exceptional infrastructure, which is well-suited for the pursuit of IT and ITES education. VIT Vellore offers generous scholarships, providing economically challenged yet academically brilliant students with the opportunity to pursue courses at the college.
+    
+    When selecting the right educational institution for your future, it's crucial to consider proximity to industry connections. VIT Vellore, an institution sponsored by KG Information Systems Private Limited, offers a unique "Campus Inside" experience where learning occurs within the industry's precincts. This approach fosters an Industry-Institute learning environment.
+    
+    VIT Vellore is situated on a sprawling 40-acre campus, located just 8 kilometers from the city center. This campus also houses the BPO, Software, Call Center operations of KGiSL, in addition to hosting the institute of higher learning. The VIT Vellore campus seamlessly integrates Institute, Industry, and Infrastructure in an ideal learning environment set against the picturesque backdrop of the Western Ghats in Coimbatore.
+    
+    Placement opportunities are readily available from the moment you enroll in forward-thinking programs at VIT Vellore. There is no better opportunity than to be mentored at an institution sponsored by a reputable industry leader.
+    <p>
+</div>
+  
+  <div id="Gallery" class="center">
+    <div>
+      <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\classroom1.jpeg" alt="Classrooms">
+      <p>ClassRooms</p>
+    </div>
+    <div>
+      <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\library1.jpeg" alt="Library">
+      <p>Library</p>
+    </div>
+    <div>
+      <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\library2.jpg" alt="Library">
+      <p>Library</p>
+    </div>
+    <div>
+      <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\boys_hostel (1).jpeg" alt="Hostel">
+      <p>Hostel</p>
+    </div>
+    <div>
+      <img class="img-responsive" src="C:\Users\pradh\OneDrive\Desktop\clgweb2\boyshostel2.jpg" alt="Hostel">
+      <p>Hostel</p>
+    </div>
+  </div>
+  <div id="Academics">
+    <ul class="ls-text">
+        <li>Engineering</li>
+        <ul>
+            <li><a href="chemical_engineering.html">Chemical Engineering</a></li>
+            <li><a href="computerscience_enginering.html">Computer Science Engineering</a></li>
+        </ul>
+        <li>Arts</li>
+        <ul>
+            <li><a href="english.html">English</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+        <li>Science</li>
+        <ul>
+            <li><a href="physics.html">Physics</a></li>
+            <li><a href="biotechnology.html">Biotechnology</a></li>
+        </ul>
+    </ul>
+</div>
+
+
+<div id="Admission">
+  <div class="admission-box">
+  <section>
+    <h2 style="text-align: center;">Admission</h2>
+    <form enctype="multipart/form-data">
+      <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>  <br> <br>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div> <br> <br>
+      <div>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+      </div> <br> <br>
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </div> <br> <br>
+      <div>
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch">
+          <option value="engineering">Engineering</option>
+          <option value="arts">Arts</option>
+          <option value="science">Science</option>
+        </select> <br> <br>
+      </div>
+      <div>
+        <label for="photo">Upload Photo (PDF):</label>
+        <input type="file" id="photo" name="photo" accept=".pdf">
+      </div> <br> <br>
+      <div>
+        <label for="signature">Upload Signature (PDF):</label>
+        <input type="file" id="signature" name="signature" accept=".pdf">
+      </div> <br> <br>
+      <div>
+        <label for="marksheet">Upload 12th Marksheet (PDF):</label>
+        <input type="file" id="marksheet" name="marksheet" accept=".pdf">
+      </div> <br> <br>
+      <div>
+        <label for="tc">Upload Transfer Certificate (PDF):</label>
+        <input type="file" id="tc" name="tc" accept=".pdf">
+      </div> <br> <br>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
+  </div>
+</div>
+
+<div id="How" class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.041079784065!2d79.15116999678953!3d12.96922320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1694167219973!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</body>
+</html>
